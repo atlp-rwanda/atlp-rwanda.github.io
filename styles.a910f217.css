@@ -419,7 +419,7 @@ footer #links a:hover {
     margin: 0;
 }
 .item blockquote p:before {
-    content: "\f10d";
+    content: "\201C";
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
