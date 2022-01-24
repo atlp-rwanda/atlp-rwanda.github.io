@@ -238,7 +238,7 @@ small {
   display: none;
 }
 #banner {
-  background-image: url(/andela-notion-bg.dd6a0d3c.jpg);
+  background-image: url(./andela-notion-bg.dd6a0d3c.jpg);
   background-size: cover;
   width: 100%;
   min-height: 30vh;

@@ -425,7 +425,7 @@ small {
  *  CUSTOM STYLING
  ************************/
 #banner {
-  background-image: url('/andela-notion-bg.d8c6f4d0.jpg');
+  background-image: url('./andela-notion-bg.d8c6f4d0.jpg');
   background-size: cover;
   width: 100%;
   height: 30vh;
