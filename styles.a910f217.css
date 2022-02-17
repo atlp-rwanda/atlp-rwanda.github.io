@@ -327,30 +327,43 @@ li {
 .company .logo.dairynomics {
   margin-top: 1.2rem;
 }
-#irembo-testimonial #group {
+
+#partners-testimonial {
+  margin-bottom: 0.5rem;
+}
+#partners-testimonial #group {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-column-gap: 2rem;
 }
-#irembo-testimonial #group #profile,
-#irembo-testimonial #profile #olivier {
+#partners-testimonial #group #profile,
+#partners-testimonial #profile #manager {
   width: 100%;
+  
 }
-#irembo-testimonial #testimonial .designation {
+
+#partners-testimonial #profile #manager img {
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  
+}
+#partners-testimonial #testimonial .designation {
   margin: 0;
-}
-#irembo-testimonial #group #logo {
+}            
+#partners-testimonial #group #logo {
   display: flex;
   width: 100%;
-  height: 3rem;
+  height: 2rem;
   justify-content: center;
   align-items: center;
-  background-color: var(--irembo-blue);
 }
-#irembo-testimonial #logo img {
+
+
+#partners-testimonial #logo img {
   width: 50%;
 }
-#irembo-testimonial #group p:first-of-type {
+#partners-testimonial #group p:first-of-type {
   margin-top: 0;
 }
 #service-cost {
