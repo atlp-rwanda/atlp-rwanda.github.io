@@ -305,7 +305,7 @@ li {
 }
 #companies {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
   grid-template-columns: 1fr 1fr;
   grid-gap: 4rem;
 }
@@ -350,7 +350,7 @@ li {
 }
 #partners-testimonial #testimonial .designation {
   margin: 0;
-  
+
 }            
 #partners-testimonial #group #logo {
   display: flex;
