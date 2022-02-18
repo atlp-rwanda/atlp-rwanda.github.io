@@ -293,7 +293,6 @@ small {
 }
 .content h4 {
   color: var(--andela-blue);
-  text-transform: capitalize;
 }
 .content p,
 li {
