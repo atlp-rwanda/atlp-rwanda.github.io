@@ -304,29 +304,37 @@ li {
   width: 100%;
 }
 #companies {
-  display: grid;
-  grid-template-rows: 1fr 1fr ;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+	max-width: 100%;
+	margin: auto;
+
 }
 .company {
   display: flex;
-  flex-direction: column;
+	flex-direction: column;
+	flex: 0 1 100px;;
+
+  
 }
-.company .external-link {
+/* .company .external-link {
   font-size: 0.833rem;
   color: var(--andela-blue);
-}
+} */
 .company .logo {
-  width: 65%;
+  width: 100%;
+  height: auto;
   margin-bottom: 1.5rem;
 }
-.company .logo.openmrs {
+/* .company .logo.openmrs {
   margin-bottom: 0.5rem;
-}
-.company .logo.dairynomics {
+} */
+/* .company .logo.dairynomics {
   margin-top: 1.2rem;
-}
+} */
 
 #partners-testimonial {
   margin-bottom: 0.5rem;
@@ -360,7 +368,6 @@ li {
   justify-content: center;
   align-items: center;
 }
-
 
 #partners-testimonial #logo img {
   width: 50%;
@@ -470,10 +477,10 @@ footer #links a:hover {
   #banner .content #bants {
     margin-bottom: 0;
   }
-  #companies {
+  /* #companies {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 0.8fr 0.8fr 0.8fr;
-  }
+  } */
   #companies .logo.dairynomics {
     margin-top: 0;
   }
