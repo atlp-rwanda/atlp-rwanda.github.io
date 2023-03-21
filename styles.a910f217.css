@@ -9,6 +9,10 @@ body {
 main {
   display: block;
 }
+#hero h1 {
+  color: var(--text-light);
+  color: #fff;
+}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -17,6 +21,33 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+
+.overlay-bg {
+  background-image: url("./sourire.jpg");
+  background-image: url("./Dimmimg\ Overlay.png");
+  height: 800px;
+}
+
+.why-appr {
+  margin-top: 100px;;
+  width: 719px;
+  height: 168px;
+  font-size: 67px;
+  font-style: italic;
+  line-height: 84px;
+  margin-bottom: 100px;
+}
+
+.btn-apply-hero {
+  padding-bottom: 300px;;
+}
+
+.cta-btn {
+  padding: 24px 48px;
+  gap: 10px;
+  background: #00c355;
+  border-radius: 40px;
 }
 pre {
   font-family: "Lato", sans-serif;
@@ -267,9 +298,6 @@ small {
 #banner .bants-highlight {
   text-decoration: underline;
 }
-#hero h1 {
-  color: var(--text-dark);
-}
 #hero h4 {
   font-weight: 400;
   color: var(--text-light);
@@ -292,7 +320,7 @@ small {
   transition: box-shadow 0.1s ease-out;
 }
 .content {
-  width: 55vw;
+  width: 100%;
   margin: 0 auto 4rem;
 }
 .content h4 {
@@ -465,9 +493,6 @@ footer #links a:hover {
     /* font-size: 1.22rem; */
     font-size: 26px;
     line-height: 36px;
-  }
-  .content {
-    width: 85%;
   }
   #banner {
     padding: 3rem 0;
