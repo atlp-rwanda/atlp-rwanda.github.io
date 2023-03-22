@@ -51,6 +51,68 @@ hr {
   line-height: 84px;
 }
 
+/** justify and center items in this section. Also, add space to the left */
+.who-appr, .partners {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.testimonials {
+  background: #daf3ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/**make  the divs inside have equal width */
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.second-row-item-1, .third-row-item-3 {
+  width: 50%;
+}
+/** Add space around the paragraph */
+.who-appr p {
+  font-size: 24px;
+  line-height: 36px;
+  padding: 0 0 0 100px;
+  text-align: center;
+}
+
+.faq-content {
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  
+}
 .btn-apply-hero {
   padding-bottom: 300px;;
 }
@@ -335,10 +397,10 @@ small {
   width: 100%;
   margin: 0 auto 4rem;
 }
-.content h4 {
+.contents h4 {
   color: var(--andela-green-kale);
 }
-.content p,
+.contents p,
 li {
   color: var(--andela-green-black);
   line-height: 1.5em;
@@ -436,7 +498,6 @@ details {
 }
 details summary {
   font-size: 1.22rem;
-  color: var(--text-dark);
 }
 footer {
   justify-content: space-between;
