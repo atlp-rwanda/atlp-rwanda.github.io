@@ -9,6 +9,10 @@ body {
 main {
   display: block;
 }
+#hero h1 {
+  color: var(--text-light);
+  color: #fff;
+}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -17,6 +21,130 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+
+/** add two background images to the hero section */
+.overlay-bg {
+  background: url('/Dimmimg\ Overlay.png'), url("./sourire.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+/** add a space to the left and top of the hero section */
+.hero-content {
+  padding: 0 0 0 100px;
+  padding-top: 100px;
+}
+
+/** add space before the button */
+.cta-btn-container {
+  padding-top: 100px;
+}
+.why-appr {
+  width: 719px;
+  height: 168px;
+  font-size: 67px;
+  font-style: italic;
+  line-height: 84px;
+}
+
+.why-appr h4 {
+  font-size: 16px;
+  font-style: normal;
+}
+
+/** justify and center items in this section. Also, add space to the left */
+.who-appr, .partners {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.testimonials {
+  background: #daf3ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 200px 100px 200px;
+}
+/**make  the divs inside have equal width */
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.row-logos {
+  padding: 0 100px 0 100px;
+}
+
+.row-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.row-container-3 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 3fr;
+  gap: 20px;
+}
+.contact-us {
+  text-align: center;
+  padding-top: 100px;
+}
+.who-appr p {
+  padding: 0 0 0 100px;
+  text-align: center;
+}
+
+.faq-content {
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  
+}
+
+.faq-content summary {
+  font-size: 18px;
+  font-weight: bold;
+  list-style-type: none;
+}
+.faq-content li {
+  color: white;
+}
+.btn-apply-hero {
+  padding-bottom: 300px;;
+}
+
+.cta-btn {
+  padding: 24px 48px;
+  gap: 10px;
+  background: #00c355;
+  border-radius: 40px;
 }
 pre {
   font-family: "Lato", sans-serif;
@@ -267,9 +395,6 @@ small {
 #banner .bants-highlight {
   text-decoration: underline;
 }
-#hero h1 {
-  color: var(--text-dark);
-}
 #hero h4 {
   font-weight: 400;
   color: var(--text-light);
@@ -292,13 +417,13 @@ small {
   transition: box-shadow 0.1s ease-out;
 }
 .content {
-  width: 55vw;
+  width: 100%;
   margin: 0 auto 4rem;
 }
-.content h4 {
+.contents h4 {
   color: var(--andela-green-kale);
 }
-.content p,
+.contents p,
 li {
   color: var(--andela-green-black);
   line-height: 1.5em;
@@ -311,6 +436,7 @@ li {
 #companies {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   gap: 1em;
   justify-content: center;
   align-items: center;
@@ -344,9 +470,14 @@ li {
 #partners-testimonial {
   margin-bottom: 0.5rem;
 }
-#partners-testimonial #group {
+#partners-testimonial #group-one, #group-three {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 2rem;
+}
+#group-two, #group-four {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
   grid-column-gap: 2rem;
 }
 #partners-testimonial #group #profile,
@@ -396,7 +527,6 @@ details {
 }
 details summary {
   font-size: 1.22rem;
-  color: var(--text-dark);
 }
 footer {
   justify-content: space-between;
@@ -465,9 +595,6 @@ footer #links a:hover {
     /* font-size: 1.22rem; */
     font-size: 26px;
     line-height: 36px;
-  }
-  .content {
-    width: 85%;
   }
   #banner {
     padding: 3rem 0;
