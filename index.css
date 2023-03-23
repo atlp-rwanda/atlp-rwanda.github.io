@@ -4103,7 +4103,8 @@ h6 a:visited {
 }
 p {
  margin-bottom:1em;
- margin-top:0
+ margin-top:0;
+ font-size: xx-smal;
 }
 em,
 i {

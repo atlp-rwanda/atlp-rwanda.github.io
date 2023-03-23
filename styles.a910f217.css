@@ -51,6 +51,11 @@ hr {
   line-height: 84px;
 }
 
+.why-appr h4 {
+  font-size: 16px;
+  font-style: normal;
+}
+
 /** justify and center items in this section. Also, add space to the left */
 .who-appr, .partners {
 
@@ -69,17 +74,15 @@ hr {
   align-items: center;
   flex-direction: column;
   padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 .faq {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 100px 200px 100px 200px;
 }
 /**make  the divs inside have equal width */
 .row {
@@ -89,13 +92,26 @@ hr {
   width: 100%;
 
 }
-.second-row-item-1, .third-row-item-3 {
-  width: 50%;
+.row-logos {
+  padding: 0 100px 0 100px;
 }
-/** Add space around the paragraph */
+
+.row-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.row-container-3 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 3fr;
+  gap: 20px;
+}
+.contact-us {
+  text-align: center;
+  padding-top: 100px;
+}
 .who-appr p {
-  font-size: 24px;
-  line-height: 36px;
   padding: 0 0 0 100px;
   text-align: center;
 }
@@ -103,8 +119,6 @@ hr {
 .faq-content {
   background-size: cover;
   color: white;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 100px;
@@ -112,6 +126,15 @@ hr {
   padding-bottom: 100px;
   width: 100%;
   
+}
+
+.faq-content summary {
+  font-size: 18px;
+  font-weight: bold;
+  list-style-type: none;
+}
+.faq-content li {
+  color: white;
 }
 .btn-apply-hero {
   padding-bottom: 300px;;
@@ -413,6 +436,7 @@ li {
 #companies {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   gap: 1em;
   justify-content: center;
   align-items: center;
@@ -446,9 +470,14 @@ li {
 #partners-testimonial {
   margin-bottom: 0.5rem;
 }
-#partners-testimonial #group {
+#partners-testimonial #group-one, #group-three {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 2rem;
+}
+#group-two, #group-four {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
   grid-column-gap: 2rem;
 }
 #partners-testimonial #group #profile,
