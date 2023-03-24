@@ -35,9 +35,9 @@ hr {
 
 /** add a space to the left and top of the hero section */
 .hero-content {
-  padding: 0 0 0 100px;
-  padding-top: 100px;
+  padding: 200px 100px 0px;
 }
+
 
 /** add space before the button */
 .cta-btn-container {
@@ -63,9 +63,7 @@ hr {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 100px 200px 200px 100px;
 }
 .testimonials {
   background: #daf3ef;
@@ -312,23 +310,6 @@ html {
   font-size: 1em;
   line-height: 2.5em;
 }
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input,
-li,
-option,
-p,
-section,
-select,
-small,
-ul {
-  font-family: DINPro;
-}
 h1 {
   font-size: 2.488rem;
 }
@@ -397,7 +378,7 @@ small {
 }
 #hero h4 {
   font-weight: 400;
-  color: var(--text-light);
+  color: white;
 }
 .button-link {
   display: inline-block;

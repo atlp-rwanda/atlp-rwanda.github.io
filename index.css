@@ -4477,17 +4477,27 @@ body.single .site-header.scrolled {
  max-width:100%
 }
 .site-branding {
- width:122px;
+ width:322px;
  display:block;
  margin:0 0 0 20px;
  float:left;
  line-height:0;
  flex:0 1 auto;
- padding-bottom:15px
+ padding-bottom:15px;
+ padding-left: 100px;
 }
 .site-header .site-branding img {
  width:100%;
  height:auto
+}
+
+.link-ex {
+    color: #40c15f;
+}
+
+.header-logos {
+    text-align: center;
+    padding: 0 125px 0 125px;
 }
 body.first-block-corecover .site-header .site-branding img,
 body.single .site-header .site-branding img {
@@ -4721,7 +4731,7 @@ body.page .entry-header {
 }
 @media only screen and (min-width:768px) {
  .site-branding {
-  width:190px
+  /*width:190px*/
  }
  .entry-content>.wp-block-group.has-background {
   padding-top:36px;
