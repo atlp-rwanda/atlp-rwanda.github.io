@@ -1,13 +1,13 @@
 /** Once the arrow is clicked, toggle the src attribute of the image tag*/
 function changeArrowColor() {
     document.getElementById("arrow-one").addEventListener("click", function() {
-        // select img
-        const arrowOne = document.getElementById("arrow-one")
-        console.info(arrowOne.getAttribute("img"))
-        if (arrowOne.getAttribute("src") === "images/down-vector.png") {
-            arrowOne.setAttribute("src", "images/up-vector.png");
+        // select img tag inside the section
+
+        const arrowOne = document.getElementById("arrow-one").childNodes[3]
+        if (arrowOne.getAttribute("src") === "./down-vector.png") {
+            arrowOne.setAttribute("src", "./up-vector.png");
         } else {
-            arrowOne.setAttribute("src", "images/arrow-down.png");
+            arrowOne.setAttribute("src", "./down-vector.png");
         }
     }
     )
