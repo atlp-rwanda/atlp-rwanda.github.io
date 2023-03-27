@@ -6,9 +6,8 @@
     background-color:#173B3F;
 }
 
-site-header-inner {
+.site-header-inner {
   color: #fff;
-  margin: 0 auto;
   padding: 20px 0 0;
   width: 1320px;
   display: flex;
@@ -18,9 +17,6 @@ site-header-inner {
   max-width: 100%;
 }
 
-.faq-content {
-    background-image: url("./faq.jpg");
-}
 body, button, input, optgroup, select, textarea {
   color: #132128;
   font-family: Inter,sans-serif;
@@ -4465,17 +4461,7 @@ body.first-block-corecover .site-header.scrolled,
 body.single .site-header.scrolled {
  background-color:rgba(255,255,255,.98)
 }
-.site-header-inner {
- color:#fff;
- margin:0 auto;
- padding:20px 0 0;
- width:1320px;
- display:flex;
- flex-flow:row wrap;
- justify-content:space-between;
- align-items:stretch;
- max-width:100%
-}
+
 .site-branding {
  width:322px;
  display:block;

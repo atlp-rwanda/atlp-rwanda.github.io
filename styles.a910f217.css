@@ -31,8 +31,24 @@ hr {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
+  opacity: .8;
 }
 
+@media screen and (max-width: 768px) {
+  .overlay-bg {
+    background: url('/Dimmimg\ Overlay.png'), url("./sourire.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  
+}
+a {
+  text-decoration: none;
+  font-weight:bold;
+}
 /** add a space to the left and top of the hero section */
 .hero-content {
   padding: 200px 100px 0px;
@@ -115,6 +131,7 @@ hr {
 }
 
 .faq-content {
+  background-image: url("./faq.jpg");
   background-size: cover;
   color: white;
   justify-content: center;
@@ -125,6 +142,10 @@ hr {
   width: 100%;
   
 }
+.faq-content h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
 
 .faq-content summary {
   font-size: 18px;
@@ -133,6 +154,14 @@ hr {
 }
 .faq-content li {
   color: white;
+}
+
+/**Make this a flexbox, move the arrow to the right and add space between the question and the arrow */
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .btn-apply-hero {
   padding-bottom: 300px;;
@@ -399,7 +428,7 @@ small {
 }
 .content {
   width: 100%;
-  margin: 0 auto 4rem;
+  margin: 0 auto ;
 }
 .contents h4 {
   color: var(--andela-green-kale);
@@ -449,6 +478,7 @@ li {
 } */
 
 #partners-testimonial {
+  margin-top: 2.5rem;
   margin-bottom: 0.5rem;
 }
 #partners-testimonial #group-one, #group-three {
