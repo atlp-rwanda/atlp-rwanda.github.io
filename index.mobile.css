@@ -1,0 +1,69 @@
+/** Make index.html responsive for mobile devices and tablets*/
+@media (max-width: 767px) {
+    .overlay-bg {
+        background-image: url('./sourire.jpg');
+        width: 100%;
+        height: 50vh;
+    }
+
+    .site-header-inner {
+        padding: 0;
+    }
+    .site-branding {
+        padding: 0;
+        width: 50%;
+    }
+    .hero-content {
+        padding: 130px 10px 0;
+    }
+    .who-appr {
+        padding: 10px 20px 20px 10px;
+    }
+    .who-appr p {
+        padding: 0;
+    }
+    .faq {
+        padding: 10px 20px 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    /* make this a cardbox with rounded corners */
+    .block-column {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 12px;
+        background-color: #fff;
+    }
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .container .row {
+    margin: 0;
+  }
+  .container .row .col-md-4 {
+    width: 100%;
+    padding: 0;
+  }
+  .container .row .col-md-4 .card {
+    width: 100%;
+    margin: 0;
+  }
+  .container .row .col-md-4 .card .card-body {
+    padding: 0;
+  }
+  .container .row .col-md-4 .card .card-body .card-title {
+    font-size: 1.5rem;
+  }
+  .container .row .col-md-4 .card .card-body .card-text {
+    font-size: 1.2rem;
+  }
+  .container .row .col-md-4 .card .card-body .card-text .btn {
+    font-size: 1.2rem;
+  }
+
+}
