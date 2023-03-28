@@ -50,6 +50,12 @@
   .partners {
     padding: 10px 20px 20px 10px;
   }
+  .testimonials {
+    padding: 10px 20px 20px 10px;
+  }
+  .faq-content {
+    padding: 10px;
+  }
   .container .row {
     margin: 0;
   }
