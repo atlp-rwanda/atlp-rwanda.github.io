@@ -1,0 +1,65 @@
+/** Make index.html responsive for mobile devices and tablets*/
+@media (max-width: 767px) {
+    /* make the background cover the vewport */
+    .overlay-bg {
+        background-size: cover;
+        background-position: right;
+    }
+
+
+    .why-appr {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .site-header-inner {
+        padding: 0;
+    }
+    .site-branding {
+        padding: 0;
+        width: 50%;
+    }
+    .hero-content {
+        padding: 130px 10px 0;
+    }
+    .who-appr {
+        padding: 10px 20px 20px 10px;
+    }
+    .who-appr p {
+        padding: 0;
+    }
+    .faq {
+        padding: 10px 20px 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    /* make this a cardbox with rounded corners */
+    .block-column {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 12px;
+        background-color: #fff;
+    }
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .row-container, .row-container-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .partners {
+    padding: 10px 20px 20px 10px;
+  }
+  .testimonials {
+    padding: 10px 20px 20px 10px;
+  }
+  .faq-content {
+    padding: 10px;
+  }
+}

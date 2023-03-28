@@ -486,11 +486,18 @@ li {
   grid-template-columns: 3fr 1fr;
   grid-column-gap: 2rem;
 }
+
 #group-two, #group-four {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-column-gap: 2rem;
 }
+@media screen and (max-width: 768px) {
+  #partners-testimonial #group-one, #group-two, #group-three, #group-four {
+    grid-template-columns: 1fr;
+  }
+}
+  
 #partners-testimonial #group #profile,
 #partners-testimonial #profile #manager {
   width: 100%;
