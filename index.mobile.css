@@ -1,9 +1,15 @@
 /** Make index.html responsive for mobile devices and tablets*/
 @media (max-width: 767px) {
+    /* make the background cover the vewport */
     .overlay-bg {
-        background-image: url('./sourire.jpg');
+        background-size: cover;
+        background-position: right;
+    }
+
+
+    .why-appr {
         width: 100%;
-        height: 50vh;
+        margin-bottom: 5rem;
     }
 
     .site-header-inner {
