@@ -103,7 +103,7 @@ a {
 }
 
 /** center items in this container */
-.row-container {
+.row-container, .row-container-2 {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
