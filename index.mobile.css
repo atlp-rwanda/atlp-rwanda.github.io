@@ -1,15 +1,38 @@
 /** Make index.html responsive for mobile devices and tablets*/
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     /* make the background cover the vewport */
     .overlay-bg {
+        background: linear-gradient(105.82deg, rgba(1, 56, 61, 1) 0%, rgba(1, 56, 61, 0) 100.56%),url("./sourire.jpg");
         background-size: cover;
         background-position: right;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+    /* move the logo to the left and centered vertically*/
+    /* add space inside the box */
+    .site-header-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
     }
 
-
+    /** Make the container big enough for h1 and h4 tags */
     .why-appr {
-        width: 100%;
-        margin-bottom: 5rem;
+        width: 80%;
+        height: auto;
+    }
+    
+    /** move each word to its own line */
+    .why-appr h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+    }
+
+    .why-appr h4 {
+        width: 70%;
     }
 
     .site-header-inner {
@@ -27,6 +50,13 @@
     }
     .who-appr p {
         padding: 0;
+    }
+
+    /** move the container down */
+    .cta-btn-container {
+        padding: 0;
+        margin-top: 10rem;
+
     }
     .faq {
         padding: 10px 20px 20px 10px;

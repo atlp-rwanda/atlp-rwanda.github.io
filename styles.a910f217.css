@@ -34,17 +34,6 @@ hr {
 }
 
 
-@media screen and (max-width: 768px) {
-  .overlay-bg {
-    background: linear-gradient(105.82deg, rgba(1, 56, 61, 1) 0%, rgba(1, 56, 61, 0) 100.56%),url("./sourire.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-  }
-  
-}
 a {
   text-decoration: none;
   font-weight:bold;
@@ -113,10 +102,14 @@ a {
   padding: 0 100px 0 100px;
 }
 
+/** center items in this container */
 .row-container {
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  padding: 0 100px 0 100px;
+
 }
 
 .row-container-3 {
@@ -174,6 +167,7 @@ a {
   padding: 24px 48px;
   gap: 10px;
   background: #00c355;
+  color: #01383d;
   border-radius: 40px;
 }
 pre {
