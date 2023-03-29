@@ -1,15 +1,38 @@
 /** Make index.html responsive for mobile devices and tablets*/
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     /* make the background cover the vewport */
     .overlay-bg {
+        background: linear-gradient(105.82deg, rgba(1, 56, 61, 1) 0%, rgba(1, 56, 61, 0) 100.56%),url("./sourire.jpg");
         background-size: cover;
         background-position: right;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+    /* move the logo to the left and centered vertically*/
+    /* add space inside the box */
+    .site-header-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
     }
 
-
+    /** Make the container big enough for h1 and h4 tags */
     .why-appr {
-        width: 100%;
-        margin-bottom: 5rem;
+        width: 80%;
+        height: auto;
+    }
+    
+    /** move each word to its own line */
+    .why-appr h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+    }
+
+    .why-appr h4 {
+        width: 70%;
     }
 
     .site-header-inner {
@@ -28,12 +51,20 @@
     .who-appr p {
         padding: 0;
     }
+
+    /** move the container down */
+    .cta-btn-container {
+        padding: 0;
+        margin-top: 10rem;
+
+    }
     .faq {
         padding: 10px 20px 20px 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 30px;
         
     }
     /* make this a cardbox with rounded corners */
@@ -48,9 +79,27 @@
     width: 100%;
     padding: 0;
   }
+  .row-container {
+    padding: 0px;
+  }
+  /** switch the order of items in this grid */
   .row-container, .row-container-3 {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-logos, .row-logos {
+    padding: 0;
+  }
+
+  /** put each item on its own line in a gridbox */
+  .row-container-3 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
   }
 
   .partners {
@@ -58,6 +107,10 @@
   }
   .testimonials {
     padding: 10px 20px 20px 10px;
+  }
+  .testimonials-odd {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .faq-content {
     padding: 10px;
