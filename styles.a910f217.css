@@ -56,11 +56,11 @@ a {
   line-height: 84px;
 }
 .why-appr h1 {
-  font-size: 52px;
+  font-size: 60px;
   line-height: 60px;
 }
 .why-appr h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
 }
 
@@ -72,6 +72,7 @@ a {
   align-items: center;
   flex-direction: column;
   padding: 100px 200px 200px 100px;
+  gap: 40px;
 }
 .testimonials {
   background: #daf3ef;
@@ -114,8 +115,14 @@ a {
 
 .row-container-3 {
   display: grid;
-  grid-template-columns: 1fr 1.5fr 3fr;
+  grid-template-columns: 2fr 1fr;
   gap: 20px;
+}
+.third-row-img {
+  display: flex;
+}
+.row-container-3 img {
+  width: 185px;
 }
 .contact-us {
   text-align: center;
