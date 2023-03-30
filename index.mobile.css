@@ -53,9 +53,11 @@
     .who-appr p {
         padding: 0;
     }
-
+    
     /** move the container down */
     .cta-btn-container {
+        width: auto;
+        height: auto;
         padding: 0;
         margin-top: 10rem;
 
@@ -153,6 +155,9 @@
   .faq-content {
     padding: 10px;
   }
+  .faq-content summary {
+    list-style-type: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .overlay-bg {
@@ -197,9 +202,10 @@
     .who-appr p {
         padding: 0;
     }
+    /* make the container big enough for all content */
     .cta-btn-container {
-        padding: 0;
-        margin-top: 10rem;
+        height: auto;
+        width: auto;
     }
     .faq {
         padding: 10px 20px 20px 10px;

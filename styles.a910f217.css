@@ -170,6 +170,9 @@ a {
 .faq-content li {
   color: white;
 }
+  .faq-content summary {
+    list-style-type: none;
+  }
 
 /**Make this a flexbox, move the arrow to the right and add space between the question and the arrow */
 
