@@ -247,6 +247,123 @@ ol.is-style-circle-list li::before {
 .stepper-wrapper ol.is-style-circle-list li:last-child::after {
       background-color: transparent;
 }
+
+/** footer section */
+
+.site-footer {
+    background-color: #173B3F;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.site-footer-inner {
+    padding: 40px 20px 40px 20px;
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+.site-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.site-footer .site-info {
+    text-align: center;
+    font-size: 75%;
+}
+
+.footer-widgets {
+    display: flex;
+}
+.widget_block {
+    width: 16%;
+}
+.widget_block:nth-child(1) {
+    width: 26%;
+}
+.footer-widgets > .widget:first-child img {
+    max-width: 180px;
+}
+
+.site-footer strong {
+    font-weight: 700;
+}
+
+.widget {
+    margin: 0 0 1.5em;
+    /* Make sure select elements fit in widgets. */
+}
+
+.widget select {
+    max-width: 100%;
+}
+
+.widget ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    padding-inline-start: 24px;
+}
+
+.wp-container-39 {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 24px;
+    background:none;
+}
+
+.wp-container-39 li {
+    color: white;
+}
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-facebook,
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-instagram,
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-linkedin,
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-twitter,
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-youtube,
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-tiktok {
+    background-color: transparent;
+}
+svg {
+    font-size: 24px;
+}
+.wp-block-social-links.is-style-logos-only .wp-social-link svg {
+    width: 1.25em;
+    height: 1.25em;
+    fill: white;;
+}
+
+.footer-heading {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.site-footer li {
+    font-size: 12px;
+}
 @font-face {
   font-display: swap;
   font-family: Inter;
