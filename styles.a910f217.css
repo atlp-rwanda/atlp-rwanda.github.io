@@ -45,7 +45,7 @@ a {
 
 /** add space before the button */
 .cta-btn-container {
-  padding-top: 100px;
+  margin-top: 10rem;
 }
 .why-appr {
   width: 719px;
