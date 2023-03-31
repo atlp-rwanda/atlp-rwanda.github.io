@@ -45,8 +45,9 @@ a {
 
 /** add space before the button */
 .cta-btn-container {
-  padding-top: 100px;
+  margin-top: 10rem;
 }
+
 .why-appr {
   width: 719px;
   height: 168px;
@@ -70,7 +71,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 100px 200px 200px 100px;
+  padding: 10px 20px 20px 10px;
   gap: 40px;
 }
 .testimonials {
@@ -141,8 +142,8 @@ a {
   padding-top: 100px;
 }
 .who-appr p {
-  padding: 0 0 0 100px;
-  text-align: center;
+  padding: 0 0 0 10px;
+  text-align: left;
 }
 
 .faq-content {
@@ -456,7 +457,7 @@ small {
 li {
   color: var(--andela-green-black);
   line-height: 1.5em;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
 }
 #process {
