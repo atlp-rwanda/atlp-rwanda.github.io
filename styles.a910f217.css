@@ -760,6 +760,10 @@ details .answer {
   margin-bottom: 10px;
 }
 
+.footer-section-links li a {
+  color: white;
+}
+
 .footer-section-links {
   font-size: 0.75rem;
   line-height: 1rem;
