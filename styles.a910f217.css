@@ -9,10 +9,6 @@ body {
   padding: 0px;
 }
 
-.hero-contents-wrapper {
-  margin: 0 5%;
-}
-
 p {
   font-size: 1.125rem;
 }
@@ -865,7 +861,13 @@ details .answer {
   }
 
   .overlay-bg {
+    height: 95vh;
     background-position: 70% 0%;
+  }
+
+  .site-header {
+    height: 95vh;
+    grid-template-rows: 40% 40% 10%;
   }
 
   .third-contents-reason-one {
@@ -918,7 +920,6 @@ details .answer {
 
 /* Small devices (landscape phones, less than 768px) */
 @media only screen and (max-width: 767.98px) {
-
 
   .secondary-contents-wrapper-outer {
     height: 90%;
@@ -1048,7 +1049,7 @@ details .answer {
   }
 
   .footer-section-links {
-    flex-basis: 9rem;
+    flex-basis: 8rem;
   }
 
   .footer-wrapper-inner{
@@ -1067,10 +1068,12 @@ details .answer {
   }
 
   .overlay-bg {
+    height: 95vh;
     background-position: 80% 0;
   }
   
   .site-header {
+    height: 95vh;
     grid-template-rows: 40% 40% 10%;
   }
 }
