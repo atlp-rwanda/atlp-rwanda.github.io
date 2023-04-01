@@ -762,6 +762,7 @@ details .answer {
 
 .footer-section-links li a {
   color: white;
+  text-decoration: none;
 }
 
 .footer-section-links {
