@@ -1070,8 +1070,8 @@ details .answer {
     background-position: 80% 0;
   }
   
-  .site-header{
-    grid-template-rows: 45% 40% 10%;
+  .site-header {
+    grid-template-rows: 40% 40% 10%;
   }
 }
 

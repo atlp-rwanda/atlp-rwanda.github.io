@@ -4,21 +4,6 @@
   box-sizing: border-box;
 }
 
-.site-header-outer {
-  background-color: #173b3f;
-}
-
-.site-header-inner {
-  color: #fff;
-  padding: 20px 0 0;
-  width: 1320px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  max-width: 100%;
-}
-
 body,
 button,
 input,
@@ -37,8 +22,6 @@ textarea {
     padding-left: 30px !important;
   }
 }
-
-
 
 .h3-style,
 h1,
