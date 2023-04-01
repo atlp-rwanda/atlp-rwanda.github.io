@@ -1071,7 +1071,7 @@ details .answer {
   }
   
   .site-header{
-    grid-template-rows: 45% 40% 10%;
+    grid-template-rows: 40% 40% 10%;
   }
 }
 
