@@ -4,21 +4,6 @@
   box-sizing: border-box;
 }
 
-.site-header-outer {
-  background-color: #173b3f;
-}
-
-.site-header-inner {
-  color: #fff;
-  padding: 20px 0 0;
-  width: 1320px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  max-width: 100%;
-}
-
 body,
 button,
 input,
@@ -37,8 +22,6 @@ textarea {
     padding-left: 30px !important;
   }
 }
-
-
 
 .h3-style,
 h1,
@@ -75,52 +58,6 @@ img {
 figure {
   margin: 1em 0;
 }
-.site-header {
-  position: sticky;
-  width: 100%;
-  z-index: 9998;
-  transition: all 0.25s ease-in-out;
-  top: 0;
-  height: 0;
-  overflow-y: visible;
-  background-color: rgba(255, 255, 255, 0.95);
-}
-.site-header-outer {
-  background-color: inherit;
-}
-
-.site-branding {
-  width: 322px;
-  display: block;
-  margin: 0 0 0 20px;
-  float: left;
-  line-height: 0;
-  flex: 0 1 auto;
-  padding-bottom: 15px;
-  padding-left: 100px;
-}
-.site-header .site-branding img {
-  width: 100%;
-  height: auto;
-}
-
-.link-ex {
-  color: #40c15f;
-}
-
-.header-logos {
-  text-align: center;
-  padding: 0 125px 0 125px;
-}
-.site-content {
-  overflow-x: hidden;
-  padding: 0;
-  margin: 120px auto 0;
-  z-index: 1;
-  position: relative;
-  background: inherit;
-}
-
 
 @font-face {
   font-display: swap;
