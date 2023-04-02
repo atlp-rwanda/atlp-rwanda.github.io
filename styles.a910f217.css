@@ -125,7 +125,7 @@ a {
   display: flex;
   align-items: start;
   justify-content: center;
-  padding: 2.5rem 1.25rem;
+  padding: 5rem 1.25rem;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -640,7 +640,7 @@ ol.is-style-circle-list li::before {
   /* align-items: center; */
   justify-content: center;
   row-gap: 5rem;
-  padding: 6.5rem 0;
+  padding: 5rem 0;
   max-width: 80%;
   margin: 0 auto;
 }
