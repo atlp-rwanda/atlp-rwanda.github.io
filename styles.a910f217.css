@@ -361,20 +361,24 @@ ol.is-style-circle-list li::before {
 }
 
 .third-contents-picture-three {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100%;
+  place-self: center stretch;
+  grid-area: picture;
 }
 
-.third-contents-picture-three-one img {
-  max-width: 100%;
-  max-height: 100%;
+.third-contents-picture-three img {
+  height: 100%;
+  width: 90%;
 }
 
-.third-contents-picture-three-two img {
+/* .third-contents-picture-three-one img {
   max-width: 100%;
   max-height: 100%;
-}
+} */
+
+/* .third-contents-picture-three-two img {
+  max-width: 100%;
+  max-height: 100%;
+} */
 
 .third-contents-texts-three {
   grid-area: texts;
