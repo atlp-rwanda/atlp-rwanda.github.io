@@ -902,13 +902,13 @@ details .answer {
     padding-right: 0%;
   }
 
-  .third-contents-picture-three-one img {
+  .third-contents-picture-three img {
     width: 100%;
   }
 
-  .third-contents-picture-three-two img {
+  /* .third-contents-picture-three-two img {
     width: 100%;
-  }
+  } */
 
   .testimonials-contents-one {
     grid-template-columns: 70% 30%;
