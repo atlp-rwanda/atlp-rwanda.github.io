@@ -432,6 +432,7 @@ ol.is-style-circle-list li::before {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   gap: 0.5rem;
 }
 
